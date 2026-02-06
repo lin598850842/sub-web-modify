@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
 customBackend: {
-      "自用专属后端": "https://tnqanvahhspb.ap-northeast-1.clawcloudrun.com",// 为您的后端取名
+      "自用专属后端": "https://subapi.520554.xyz",// 为您的后端取名
       "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
       "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
       "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -348,7 +348,7 @@ customBackend: {
       "sub-web作者提供": "https://api.wcc.best",
   },
   backendOptions: [
-      { value: "https://tnqanvahhspb.ap-northeast-1.clawcloudrun.com" }, // 添加您的后端地址
+      { value: "https://subapi.520554.xyz" }, // 添加您的后端地址
       { value: "https://subapi.cmliussss.net" },
       { value: "https://subapi.fxxk.dedyn.io" },
       { value: "https://url.v1.mk" },
@@ -788,7 +788,7 @@ customBackend: {
   form: { // 默认表单配置
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://tnqanvahhspb.ap-northeast-1.clawcloudrun.com/" : this.getUrlParam(),// 替换为您的后端地址
+        customBackend: this.getUrlParam() == "" ? "https://subapi.520554.xyz" : this.getUrlParam(),// 替换为您的后端地址
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",// 替换为您常用的订阅转换配置文件地址
         excludeRemarks: "",
@@ -1312,6 +1312,7 @@ customBackend: {
   }
 };
 </script>
+
 
 
 
